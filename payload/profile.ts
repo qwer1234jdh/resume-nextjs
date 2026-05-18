@@ -1,9 +1,9 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/profile_image.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,17 +11,17 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '배재대학교 전자공학과 전대호',
+    small: '(클로드는 신이고, 나는 무적이다)',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'jeondaeho205@gmail.com',
+      link: 'mailto:jeondaeho205@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '연락 부탁드립니다',
       icon: faPhone,
       badge: true,
     },
@@ -29,14 +29,9 @@ const profile: IProfile.Payload = {
       link: 'https://github.com/uyu423/resume-nextjs',
       icon: faGithub,
     },
-    {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
-    },
   ],
   notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+    title: '구직 중입니다. 연락 주세요!',
     icon: faBell,
   },
 };
