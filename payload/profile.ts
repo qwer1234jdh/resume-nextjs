@@ -12,7 +12,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '배재대학교 전자공학과 전대호',
-    small: '(클로드는 신이고, 나는 무적이다)',
+    small: '\n(클로드는 신이고, 나는 무적이다)',
   },
   contact: [
     {
