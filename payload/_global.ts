@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'RESUME-NEXTJS Sample Page';
-const description = 'This is a simple web resume sample.';
+const title = '전대호 이력서';
+const description = '하드웨어부터 응용 계층까지 다루는 임베디드 엔지니어 전대호의 이력서입니다.';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -19,15 +19,15 @@ export const _global: IGlobal.Payload = {
           url: previewImage,
           width: 800,
           height: 600,
-          alt: 'OpenGraph Image Sample.png',
+          alt: '전대호 이력서 미리보기',
         },
       ],
       type: 'profile',
       profile: {
-        firstName: 'Lorem',
-        lastName: 'ipsum',
-        username: 'lorem',
-        gender: 'female',
+        firstName: '대호',
+        lastName: '전',
+        username: 'jeondaeho',
+        gender: 'male',
       },
     },
   },
